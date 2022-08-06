@@ -36,8 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.nav__logo {
-}
+
 .nav__list {
     display: flex;
 }
@@ -57,4 +56,66 @@ body {
 
 .nav__link:hover {
     border-bottom: 1px solid #BF7506;
+}
+
+.header {
+}
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__container > *:not(:last-child) {
+    margin-right: 27px;
+}
+.header__image {
+}
+.header__content {
+    max-width: 510px;
+}
+.header__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+}
+.header__subtitle {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+}
+.header__subtitle span {
+    color: #BF7506;
+}
+.header__info {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.header__socials {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header__social-link {
+    flex-shrink: 0;
+}
+.header__cv {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 28px;
+    border-bottom: 2px solid #BF7506;
+}
+.header__cv::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-image: url("../img/download.svg");
+    width: 24px;
+    height: 24px;
 }
