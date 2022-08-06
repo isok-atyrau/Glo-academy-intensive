@@ -8,7 +8,7 @@ font-family: 'Roboto Mono', monospace; */
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5fa;
     color: #211B12;
 }
 
@@ -68,8 +68,6 @@ body {
 .header__container > *:not(:last-child) {
     margin-right: 27px;
 }
-.header__image {
-}
 .header__content {
     max-width: 510px;
 }
@@ -119,3 +117,79 @@ body {
     width: 24px;
     height: 24px;
 }
+
+
+/* Section Portfolio */
+.portolio {
+    padding: 82px 0;
+}
+
+.portolio__title {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+}
+.portolio__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    /* flex: 0 1 50%; */
+}
+.card__img {
+    margin-bottom: 16px;
+}
+.card__content {
+    padding-left: 16px;
+    max-width: 380px;
+}
+.card__name {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: #BF7506;
+}
+.card__tags {
+    margin-bottom: 16px;
+}
+.card__text {
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.card__btns {
+    display: flex;
+    gap: 33px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.card__btn {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #BF7506;
+}
+.card__btn img {
+    margin-right: 4px;
+}
+
+.tag {
+    display: flex;
+    gap: 4px; 
+}
+.tag__item {
+    padding: 5px 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #DD9C3C;
+    border-radius: 4px;
+}
+.tag__link {
+    font-weight: 400;
+    font-size: 12px;
+}
+
