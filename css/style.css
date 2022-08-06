@@ -21,7 +21,7 @@ body {
 .main {
     flex: 1 1 auto;
 }
-.container {
+[class*="__container"] {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 15px;
@@ -32,7 +32,7 @@ body {
 .nav {
     padding: 40px 0 74px;
 }
-.nav__row {
+.nav__container {
     display: flex;
     justify-content: space-between;
 }
