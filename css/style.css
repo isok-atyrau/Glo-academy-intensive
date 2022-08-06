@@ -169,11 +169,11 @@ body {
     gap: 33px;
     font-weight: 700;
     font-size: 16px;
-    color: inherit;
 }
 .card__btn {
     padding-bottom: 4px;
     border-bottom: 2px solid #BF7506;
+    color: inherit;
 }
 .card__btn img {
     margin-right: 4px;
