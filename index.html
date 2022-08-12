@@ -1,154 +1,260 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Исламбек Бргалиев - сайт портфолио</title>
-</head>
-<body>
-
-<div class="wrapper">
-    <header>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
         <nav class="nav">
-            <div class="nav__container">
-                <a href="#" class="nav__logo">
-                    <img src="./img/logo.svg" alt="Логотип">
-                </a>
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link nav__link_active">Главная</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Проекты</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Обо мне</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Связаться</a></li>
-                </ul>
+          <div class="nav__container">
+            <div class="nav__row">
+              <a href="#" class="nav__logo">
+                <img src="./img/logo.svg" alt="Логотип" />
+              </a>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#!" class="nav__link nav__link_active">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#portfolio" class="nav__link">Проекты</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">Обо мне</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#form" class="nav__link">Связаться</a>
+                </li>
+              </ul>
+              <button type="button" class="menu-icon-wrapper">
+                <div class="menu-icon"></div>
+              </button>
             </div>
+          </div>
         </nav>
         <div class="header">
-            <div class="header__container">
-                <div class="header__image">
-                    <img src="./img/About.png" alt="Header Image">
-                </div>
-                <div class="header__content">
-                    <h1 class="header__title">Привет 👋</h1>
-                    <h2 class="header__subtitle"><span>Я&nbsp;фронтенд-разработчик и&nbsp;веб-дизайнер</span><br>Меня зовут Исламбек Бргалиев и&nbsp;я&nbsp;делаю сайты для людей и&nbsp;компаний</h2>
-                    <div class="header__info">
-                        <div class="header__socials">
-                            <a href="#" class="header__social-link"><img src="./img/social-icons/linkedin.svg" alt="linkedin"></a>
-                            <a href="#" class="header__social-link"><img src="./img/social-icons/github.svg" alt="Github"></a>
-                            <a href="#" class="header__social-link"><img src="./img/social-icons/twitter.svg" alt="twitter"></a>
-                            <a href="#" class="header__social-link"><img src="./img/social-icons/stackoverflow.svg" alt="stackoverflow"></a>
-                            <a href="#" class="header__social-link"><img src="./img/social-icons/youtube.svg" alt="youtube"></a>
-                        </div>
-                        <div class="header__cv">Скачать резюме</div>
-                    </div>
-                </div>
+          <div class="header__container">
+            <div class="header__image">
+              <img src="./img/About.png" alt="Header Image" />
             </div>
+            <div class="header__content">
+              <h1 class="header__title">Привет 👋</h1>
+              <h2 class="header__subtitle">
+                <span>Я&nbsp;фронтенд-разработчик и&nbsp;веб-дизайнер</span
+                ><br />Меня зовут Исламбек Бргалиев и&nbsp;я&nbsp;делаю сайты
+                для людей и&nbsp;компаний
+              </h2>
+              <div class="header__info">
+                <div class="header__socials">
+                  <a href="#" class="header__social-link"
+                    ><img src="./img/social-icons/linkedin.svg" alt="linkedin"
+                  /></a>
+                  <a href="#" class="header__social-link"
+                    ><img src="./img/social-icons/github.svg" alt="Github"
+                  /></a>
+                  <a href="#" class="header__social-link"
+                    ><img src="./img/social-icons/twitter.svg" alt="twitter"
+                  /></a>
+                  <a href="#" class="header__social-link"
+                    ><img
+                      src="./img/social-icons/stackoverflow.svg"
+                      alt="stackoverflow"
+                  /></a>
+                  <a href="#" class="header__social-link"
+                    ><img src="./img/social-icons/youtube.svg" alt="youtube"
+                  /></a>
+                </div>
+                <div class="header__cv">Скачать резюме</div>
+              </div>
+            </div>
+          </div>
         </div>
-    </header>
-    <main class="main">
-        <section class="portolio">
-            <div class="portolio__container">
-                <div class="portolio__title">Последние проекты</div>
-                <div class="portolio__items">
-                    <div class="card">
-                        <img class="card__img" src="./img/portfolio/01.png" alt="Card">
-                        <div class="card__content">
-                            <div class="card__name">Мобильное приложение</div>
-                            <ul class="card__tags tag">
-                                <li class="tag__item"><a href="#" class="tag__link">HTML</a></li>
-                                <li class="tag__item"><a href="#" class="tag__link">CSS</a></li>
-                                <li class="tag__item"><a href="#" class="tag__link">JavaScript</a></li>
-                                <li class="tag__item"><a href="#" class="tag__link">Git</a></li>
-                                <li class="tag__item"><a href="#" class="tag__link">Vitejs</a></li>
-                            </ul>
-                            <p class="card__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <div class="card__btns">
-                                <a href="#" class="card__btn"><img src="./img/portfolio/icon-01.svg" alt="Icon">Код</a>
-                                <a href="#" class="card__btn"><img src="./img/portfolio/Icon-02.svg" alt="Icon">Демо</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card__img" src="./img/portfolio/02.png" alt="Card">
-                        <div class="card__content">
-                            <div class="card__name">Мобильное приложение</div>
-                            <ul class="card__tags tag">
-                                <li class="tag__item"><a href="#" class="tag__link">HTML</a></li>
-                                <li class="tag__item"><a href="#" class="tag__link">CSS</a></li>
-                            </ul>
-                            <p class="card__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <div class="card__btns">
-                                <a href="#" class="card__btn"><img src="./img/portfolio/icon-01.svg" alt="Icon">Код</a>
-                                <a href="#" class="card__btn"><img src="./img/portfolio/Icon-02.svg" alt="Icon">Демо</a>
-                            </div>
-                        </div>
-                    </div>
+      </header>
+      <main class="main">
+        <section class="portolio" id="portfolio">
+          <div class="portolio__container">
+            <div class="portolio__title">Последние проекты</div>
+            <div class="portolio__items">
+              <div class="card">
+                <img
+                  class="card__img"
+                  src="./img/portfolio/01.png"
+                  alt="Card"
+                />
+                <div class="card__content">
+                  <div class="card__name">Мобильное приложение</div>
+                  <ul class="card__tags tag">
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">HTML</a>
+                    </li>
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">CSS</a>
+                    </li>
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">JavaScript</a>
+                    </li>
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">Git</a>
+                    </li>
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">Vitejs</a>
+                    </li>
+                  </ul>
+                  <p class="card__text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <div class="card__btns">
+                    <a href="#" class="card__btn"
+                      ><img
+                        src="./img/portfolio/icon-01.svg"
+                        alt="Icon"
+                      />Код</a
+                    >
+                    <a href="#" class="card__btn"
+                      ><img
+                        src="./img/portfolio/Icon-02.svg"
+                        alt="Icon"
+                      />Демо</a
+                    >
+                  </div>
                 </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card__img"
+                  src="./img/portfolio/02.png"
+                  alt="Card"
+                />
+                <div class="card__content">
+                  <div class="card__name">Мобильное приложение</div>
+                  <ul class="card__tags tag">
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">HTML</a>
+                    </li>
+                    <li class="tag__item">
+                      <a href="#" class="tag__link">CSS</a>
+                    </li>
+                  </ul>
+                  <p class="card__text">
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <div class="card__btns">
+                    <a href="#" class="card__btn"
+                      ><img
+                        src="./img/portfolio/icon-01.svg"
+                        alt="Icon"
+                      />Код</a
+                    >
+                    <a href="#" class="card__btn"
+                      ><img
+                        src="./img/portfolio/Icon-02.svg"
+                        alt="Icon"
+                      />Демо</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </section>
 
-        <section class="about">
-            <div class="about__container">
-                <div class="about__top">
-                    <div class="about__img">
-                        <img src="./img/About/hero.png" alt="About">
-                    </div>
-                    <div class="about__content">
-                        <div class="about__subtitle">Рад вас видеть</div>
-                        <div class="about__title">Я Исламбек Бргалиев</div>
-                        <div class="about__info">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.</div>
-                        <div class="about__skills">Код, Дизайн, Обучение</div>
-                        <div class="about__text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: 
-                            Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</div>
-                        <div class="about__sign">
-                            <img src="./img/About/sign.png" alt="Sign">
-                        </div>
-                    </div>
+        <section class="about" id="about">
+          <div class="about__container">
+            <div class="about__top">
+              <div class="about__img">
+                <img src="./img/About/hero.png" alt="About" />
+              </div>
+              <div class="about__content">
+                <div class="about__subtitle">Рад вас видеть</div>
+                <div class="about__title">Я Исламбек Бргалиев</div>
+                <div class="about__info">
+                  Я разрабатываю сайты для людей и компаний. Делаю всё сам:
+                  составляю прототип, дизайн-макет, пишу код.
                 </div>
-                <div class="about__bottom">
-                    <div class="about__bottom-title"></div>
-                    <ul class="about__bottom-list tag-list">
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">HTML</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">CSS</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">JavaScript</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">Wordpress</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">npm</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">Reactjs</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">Nextjs</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">UI Design</a></li>
-                        <li class="tag-list__item"><a href="#" class="tag-list__link">SASS</a></li>
-                    </ul>
+                <div class="about__skills">Код, Дизайн, Обучение</div>
+                <div class="about__text">
+                  Могу собрать страницу для вашей компании, даже если запускать
+                  её нужно уже завтра. Из инструментов есть: Tilda, Webflow,
+                  Figma, HTML, CSS, JavaScript и Wordpress
                 </div>
+                <div class="about__sign">
+                  <img src="./img/About/sign.png" alt="Sign" />
+                </div>
+              </div>
             </div>
+            <div class="about__bottom">
+              <div class="about__bottom-title">
+                Работаю с разными языками и инструментами
+              </div>
+              <ul class="about__bottom-list tag-list">
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">HTML</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">CSS</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">JavaScript</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">Wordpress</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">npm</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">Reactjs</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">Nextjs</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">UI Design</a>
+                </li>
+                <li class="tag-list__item">
+                  <a href="#" class="tag-list__link">SASS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
-    </main>
-    <footer class="footer">
+      </main>
+      <footer class="footer">
         <div class="footer__container">
-            <div class="footer__title">Готов обсудить проект...</div>
-            <form class="footer__form">
-                <div class="input-group">
-                    <label for="username" class="label">Имя</label>
-                    <input class="input" id="username" type="text">
-                </div>
-                <div class="input-group">
-                    <label for="email" class="label">Email</label>
-                    <input class="input" id="email" type="email">
-                </div>
-                <div class="input-group">
-                    <label for="message" class="label">Сообщение</label>
-                    <textarea id="message" class="input"></textarea>
-                </div>
-                <div class="button__wrapper">
-                    <button type="submit" class="footer__buttton">Отправить</button>
-                </div>
-            </form>
-            <div class="footer__copy">Сделано с ❤️ в РК</div>
-            <img class="footer__img" src="./img/footer/footer-img.png" alt="Image">
+          <div class="footer__title">Готов обсудить проект...</div>
+          <form class="footer__form" id="form">
+            <div class="input-group">
+              <label for="username" class="label">Имя</label>
+              <input class="input" id="username" type="text" />
+            </div>
+            <div class="input-group">
+              <label for="email" class="label">Email</label>
+              <input class="input" id="email" type="email" />
+            </div>
+            <div class="input-group">
+              <label for="message" class="label">Сообщение</label>
+              <textarea id="message" class="input"></textarea>
+            </div>
+            <div class="button__wrapper">
+              <button type="submit" class="footer__buttton">Отправить</button>
+            </div>
+          </form>
+          <div class="footer__copy">Сделано с ❤️ в РК</div>
+          <img
+            class="footer__img"
+            src="./img/footer/footer-img.png"
+            alt="Image"
+          />
         </div>
-    </footer>
-</div>
-
-</body>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
